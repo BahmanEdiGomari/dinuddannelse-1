@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+figure{
+    margin: 0;
+}
+figure img{
+    width: 100%;
+}
+#Fakta{
+   margin: 20px;
+}
+.faktabox{
+    padding: 20px;
+    background-color: #8B7B7B;
+    color: white;
+}
+aside h1{
+    margin-top: 0;
+}
+aside address ul{
+    list-style: none;
+    font-style: normal;
+    padding: 0;
+}
+
+@media screen and (min-width: 375px){
+    Main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+    #Fakta{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 2
+    }
+    .faktabox{
+        margin: 20px;
+        margin-top: 48px;
+    }
+    figure img{
+        margin-top: 32px;
+        width: 80%;
+        margin-left: 48px;
+    }
+}

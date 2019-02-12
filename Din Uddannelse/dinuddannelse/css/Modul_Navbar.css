@@ -1,0 +1,73 @@
+/*--- Modul Navbar ---*/
+.modul-navbar {
+    color: white;
+}
+
+/* Logo */
+.modul-navbar .responsive {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Label */
+.modul-navbar label {
+    font-size: x-large;
+    justify-self: flex-end;
+    font-size: 16px;
+    font-family: Arial;
+    align-self: flex-end;
+}
+
+/* Nav */
+.modul-navbar nav {
+    display: grid;
+    align-items: center;
+    min-height: 80px;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: calc(80px - 32px);
+    background-color: #c40000;
+    padding: 16px 32px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* Input */
+.modul-navbar #navCheckbox {
+    display: none;
+}
+
+/* List */
+.modul-navbar #navCheckbox:checked ~ ul {
+    display: block;
+}
+
+.modul-navbar ul {
+    display: none;
+    list-style: none;
+    padding: 16px 0 0 0;
+    margin: 0;
+    align-self: flex-end;
+}
+
+.modul-navbar ul > li {
+    font-size: x-large;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Media queries */
+@media screen and (min-width: 769px) {
+    .modul-navbar label {
+        display: none;
+    }
+
+    .modul-navbar ul {
+        display: flex !important;
+        justify-content: flex-end;
+        padding: 0;
+    }
+
+    .modul-navbar ul > li {
+        padding: 0 10px;
+    }
+}

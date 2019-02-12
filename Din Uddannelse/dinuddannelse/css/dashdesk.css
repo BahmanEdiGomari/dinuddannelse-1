@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+#Main{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}   
+figure img{
+    width: 100%;
+}
+#Fakta{
+   margin: 20px;
+}
+.faktabox{
+    padding: 20px;
+    background-color: #8B7B7B;
+    color: white;
+    margin: 20px;
+}
+aside h1{
+    margin-top: 0;
+}
+aside address ul{
+    list-style: none;
+    font-style: normal;
+    padding: 0;

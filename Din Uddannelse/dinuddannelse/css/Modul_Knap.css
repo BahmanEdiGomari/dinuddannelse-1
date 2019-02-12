@@ -1,0 +1,18 @@
+.modul_knap {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #C40000;
+    color: white;
+    line-height: 45px;
+    width: 157px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.modul_knap:hover {
+    text-decoration: underline;
+}
